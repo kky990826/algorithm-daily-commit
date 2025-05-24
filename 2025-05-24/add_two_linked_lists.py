@@ -26,13 +26,3 @@ def get_linked_list_sum(linked_list_1, linked_list_2):
     num_1 = int(list_to_string(linked_list_1))
     num_2 = int(list_to_string(linked_list_2))
     return num_1 + num_2
-
-linked_list_1 = LinkedList(6)
-linked_list_1.append(7)
-linked_list_1.append(8)
-
-linked_list_2 = LinkedList(3)
-linked_list_2.append(5)
-linked_list_2.append(4)
-
-print(get_linked_list_sum(linked_list_1, linked_list_2))
