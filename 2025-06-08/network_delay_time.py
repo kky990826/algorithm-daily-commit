@@ -20,4 +20,4 @@ def networkDelayTime(times, n, k):
     for node in range(1, n+1):
         if node not in costs:
             return -1
-    return max(costs.values()) 
+    return max(costs.values())
