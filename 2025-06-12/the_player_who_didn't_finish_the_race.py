@@ -3,12 +3,9 @@
 def solution(participants, completion):
     s = {}
     for name in participants:
-        s[name] = s.get(name, 0) +1 
+        s[name] = s.get(name, 0) +1
     for name in completion:
         s[name] -= 1
     for name in s:
         if s[name] > 0:
             return name
-
-
-print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))
